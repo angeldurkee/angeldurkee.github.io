@@ -5,24 +5,48 @@
     
      
      *{
-        font-size: 1em= 16pt;
+        font-size: 1em;
         font-family: "IBM Plex Mono", monospace;;
     }
     
-    h1 {
+    h1{
         color: rgb(16, 0, 246);
         font-size: 5em;
+        float: left
+       
+    }
+
+    h2{
+        width: 5%;
+        padding: 5%;
+        height: auto;
+        float:left
     }
     
-    h5{
-        font-size: 2em;
-        line-height: .01em;
+    
+    nav{
+        display: inline;
+        width: 20%;
+        padding: 5%;
+        height: auto;
+        float: left;
+        overflow:auto;
     }
     
+    #header{
+        width: 1%;
+        margin: 1%;
+        padding: 1%;
+        float: left;
+    }
+
+
+
     a {
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-weight: bold;
+        color: aliceblue;
     
     }
     
@@ -38,38 +62,62 @@
         color:rgb(43, 255, 0);
     }
     
+
     
-    p{
-        line-height: 1em;
-        font-size: 1em;
-        text-align: center;
-        width: 30%;
-        height: auto;
+    .aboutme{
+       color: aliceblue;
     }
     
-    footer{
-        font-weight: bold;
-    }
+   
     
     ul{
         list-style-type: none;
     }
+
+
     
     img{ width:30% ;
        height: auto;
-         
+       
     } 
     
-
     
+
+  
     body{
         background-color: rgb(85, 255, 0);
-        background-image: url(images/hands.jpeg) ;
+        background-image: url(images/hands.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-blend-mode: none;
+        background-blend-mode: multiply;
+
+            }
+        
+    
+ footer{
+        font-weight: bold;
+        width: 100%;
+        margin: 0%;
+        padding: 5%;
+        background-color: rgb(43, 255, 0);
+        opacity: 50%;
+        z-index: -3;
     }
 
+#wrapper{
+    width: 80%;
+    margin:auto;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    text-align: justify;
+}
+
+   
+
+        
     /* Columns */
 
     .columns {float:left;}
@@ -87,13 +135,36 @@
     .col-12 {width: 100%;}
     /* End Columns CSS */
 
-    #wrapper {
-        width: 80%;
-        margin: auto;
-    }
+   
     
-    div{
-        box-sizing: border-box;
-        border: 1px black solid
-        /*border: 1px black solid; */
+  
+
+    @media only screen and (max-width: 480px) and (max-width: 979px) 
+        body {
+            background color 
+        }
+
+        h1 {
+
+        }
+
+        div {
+
+            width: 100%
+        }
+
+    @media (max-width: 480px) {
+
+        body {
+
+        }
+
+        h1 {
+
+        }
+
+        div {
+
+            width: 100%
+        }
     }

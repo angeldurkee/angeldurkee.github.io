@@ -100,8 +100,7 @@
         margin: 0%;
         padding: 5%;
         background-color: rgb(43, 255, 0);
-        opacity: 50%;
-        z-index: -3;
+        opacity: 100%;
     }
 
 #wrapper{
@@ -115,7 +114,6 @@
     text-align: justify;
 }
 
-   
 
         
     /* Columns */
@@ -135,36 +133,8 @@
     .col-12 {width: 100%;}
     /* End Columns CSS */
 
-   
-    
-  
 
-    @media only screen and (max-width: 480px) and (max-width: 979px) 
-        body {
-            background color 
+    @media (max-width: 480px) 
+        col-6, col-4 {
+            width: 100%;
         }
-
-        h1 {
-
-        }
-
-        div {
-
-            width: 100%
-        }
-
-    @media (max-width: 480px) {
-
-        body {
-
-        }
-
-        h1 {
-
-        }
-
-        div {
-
-            width: 100%
-        }
-    }

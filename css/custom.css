@@ -98,14 +98,7 @@ width: 100%;
 box-sizing: border-box;
 }
 
-#fire08{
-position: absolute;
-float: left;
-right: 480px;
-scale: 50%;
-width: 100%;
-box-sizing: border-box;
-}
+
 
 
 @media only screen and (max-width: 600px){

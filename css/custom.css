@@ -1,3 +1,13 @@
+/* utility border */
+
+div {
+  border: 2px solid black;
+}
+
+.margin-top {
+  margin-top: 10rem;
+}
+
 * {
     margin: 0; padding: 0;
 } 
@@ -42,6 +52,7 @@ p{
   text-align: left;
   color: rgb(6, 6, 6);
   width: 100%;
+  max-width: none;
   line-height: 0.9;
 }
 
@@ -75,30 +86,27 @@ p{
   margin-right: -50vw;
 }
 
-.p1{
-font-size: 1.3em; 
-line-height: 1
-}
 
-#fire05{
+
+/* #fire05{
 position: absolute;
 top: 483px;
 left: 400px;
 scale: 50%;
 width: 100%;
 box-sizing: border-box;
-}
+} */
 
 #fire06{
-position: absolute;
-top: 483px;
-right: 480px;
-scale: 50%;
-width: 100%;
-box-sizing: border-box;
+position: relative;
+left: -60%;
+width: 200%;
+
 }
 
-
+#wrapper1 {
+  background-color: tan;
+}
 
 
 @media only screen and (max-width: 600px){

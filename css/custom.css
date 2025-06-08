@@ -1,26 +1,19 @@
 /* utility border */
 
-div {
-  border: 2px solid black;
-}
 
 .margin-top {
-  margin-top: 10rem;
+  margin-top: 10em;
 }
 
 * {
     margin: 0; padding: 0;
-} 
-     
-*{
-     
     font-family: "fields", sans-serif;
     font-style: normal;
-
- }
+} 
+     
 
 body{ 
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(6, 6, 6);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: none;
@@ -28,6 +21,32 @@ body{
     opacity: 100%;
  }
 
+.column {
+ background-color: rgb(6, 6, 6);
+}
+
+.header {
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin-top: 2.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    color:rgb(255, 252, 206);
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: "fields", sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+}
 
 li {
     display: inline;
@@ -37,14 +56,29 @@ li {
 
 p{
     font-size: 1.5em;
-    line-height: 1;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    line-height: 1.5;
     font-weight: 300; 
     float: left;
 }
+ul li a:hover {
+    color: #ff6828;
+    text-decoration: underline;
+}
+#p1{
+  font-size: 1em;
+  font-weight: 300;
+  color: rgb(255, 252, 206);
+  z-index: 20;
+  position: absolute;
+  top: 35%;
+  left: 50px;
+}
 
-
+#small_type{
+  font-size: 0.7em;
+  font-weight: 200;
+  color: rgb(255, 252, 206);
+}
 
 /* Container holding the image and the text */
 .container {
@@ -60,21 +94,31 @@ p{
 .top-left {
   position: absolute;
   top: 8px;
-  left: 16px;
+  left: 100px;
   color: rgb(255, 252, 206);
-  font-size: 10em;
-  font-weight: 500;
+  font-size: 9em;
+  font-style: bold;
+  font-weight: 700;
 }
 
-.top-left-paragraph {
-  position:absolute;
-  top: 300px;
-  left: 40px;
-  padding-top: 30px;
-  color: rgb(255, 252, 206);
-  font-size: 1.5em;
-  line-height: 1;
-  
+#wrapper1 {
+  width: 100%;
+  background-color:  rgb(255, 252, 206);
+}
+.top-left2 {
+  color: #ff6828;
+  font-size: 7em;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 200%;
+}
+.p2 {
+  position: absolute;
+  top: 25%;
+  font-size: 1.20em;
+  font-weight: 300;
+  width: 40%;
+  height: 50%;
 }
 
 .full-width {
@@ -86,27 +130,150 @@ p{
   margin-right: -50vw;
 }
 
+#fire05 {
+  position: relative;
+  margin-right: -20%;
+  width: 100%;
+
+}
+
+#fire06 {
+  position: relative;
+  padding-top: 80%;
+  left: -60%;
+  width: 150%;
+  z-index: 12;
+}
 
 
-/* #fire05{
-position: absolute;
-top: 483px;
-left: 400px;
-scale: 50%;
-width: 100%;
-box-sizing: border-box;
+/* #wrapper2 {
+  background-color:  rgb(0, 0, 0);
 } */
 
-#fire06{
-position: relative;
-left: -60%;
-width: 200%;
-
+.p3 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+  top: 8%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 30%;
+  height: auto;
+  text-align: left;
 }
 
-#wrapper1 {
-  background-color: tan;
+.p4 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 30%;
+  height: auto;
+  text-align: left;
+  z-index: 10;
 }
+
+#fire04 {
+  position: relative;
+  margin-top: -20%;
+  right: -30%;
+  width: 60%;
+}
+
+.p5 {
+  top: 10%;
+  position: absolute;
+  font-size: 1.25em;
+  font-weight: 300;
+  left: 23%;
+  width: 70%;
+  height: auto;
+  text-align: left;
+}
+#fire07 {
+  position: relative;
+  margin-top: -25%;
+  left: 20%;
+  width: 200%;
+}
+
+#wrapper3, #wrapper4 {
+  width: 100%;
+  background-color: rgb(6, 6, 6);
+}
+#wrapper3 {
+  padding-top: 5%;
+}
+.p6 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+
+  left: 55%;
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 35%;
+  height: auto;
+  text-align: left;
+}
+
+#wrapper4 {
+  padding-top: 20%;
+}
+.p7 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+  left: 10%;
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 35%;
+  height: auto;
+  text-align: left;
+}
+
+
+#fire10 {
+  position: relative;
+  right: -220%;
+  width: 180%;
+}
+
+#fire011 {
+  padding-top: 10%;
+  position: relative;
+  left: 20%;
+  width: 100%;
+  background-color: rgb(6, 6, 6);
+}
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(6, 6, 6);
+  color: rgb(255, 252, 206);
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+/* From Uiverse.io by Sendung */ 
+.spinner {
+  width: 20px;
+  height: auto;
+  transition: all 0.3s ease-in-out 0s; 
+}
+
+.spinner:hover
+{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
 
 
 @media only screen and (max-width: 600px){

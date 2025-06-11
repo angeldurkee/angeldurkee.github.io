@@ -155,7 +155,7 @@ ul li a:hover {
 }
 
 .p5 {
-  top: 15%;
+  top: 25%;
   position: absolute;
   font-size: 1.25em;
   font-weight: 300;
@@ -163,6 +163,7 @@ ul li a:hover {
   width: 70%;
   height: auto;
   text-align: left;
+  
 }
 
 .full-width {

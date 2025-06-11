@@ -1,80 +1,75 @@
 /* utility border */
 
-
+html {
+  scroll-behavior: smooth;
+}
 .margin-top {
   margin-top: 10em;
 }
 
 * {
-    margin: 0; padding: 0;
-    font-family: "fields", sans-serif;
-    font-style: normal;
-} 
-     
+  margin: 0;
+  padding: 0;
+  font-family: "fields", sans-serif;
+  font-style: normal;
+}
 
-body{ 
-    background-color:rgb(6, 6, 6);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: none;
-    width: 100%;
-    opacity: 100%;
- }
+body {
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: none;
+  width: 100%;
+  opacity: 100%;
+}
 
 .column {
- background-color: rgb(6, 6, 6);
+  background-color: rgb(0, 0, 0);
 }
 
+
+
 .header {
-    width: 100%;
+  width: 100%;
 }
 ul {
-    list-style-type: none;
-    margin-top: 2.5em;
-    padding-bottom: 0.5em;
-    text-align: center;
-    position: relative;
-    z-index: 1;
+  list-style-type: none;
+  margin-top: 2.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 ul li a {
-    text-align: center;
-    text-decoration: none;
-    color:rgb(255, 252, 206);
-    font-weight: 500;
-    font-size: 1.5em;
-    font-family: "fields", sans-serif;
-    font-style: normal;
-    text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 252, 206);
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: "fields", sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
 }
 
 li {
-    display: inline;
-    padding: 1em;
-    white-space: nowrap;
+  display: inline;
+  padding: 1em;
+  white-space: nowrap;
 }
 
-p{
-    font-size: 1.5em;
-    line-height: 1.5;
-    font-weight: 300; 
-    float: left;
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-weight: 300;
+  float: left;
 }
 ul li a:hover {
-    color: #ff6828;
-    text-decoration: underline;
-}
-#p1{
-  font-size: 1em;
-  font-weight: 300;
-  color: rgb(255, 252, 206);
-  z-index: 20;
-  position: absolute;
-  top: 35%;
-  left: 50px;
+  color: #ff6828;
+  text-decoration: underline;
 }
 
-#small_type{
+#small_type {
   font-size: 0.7em;
   font-weight: 200;
   color: rgb(255, 252, 206);
@@ -84,7 +79,7 @@ ul li a:hover {
 .container {
   position: relative;
   text-align: left;
-  color: rgb(6, 6, 6);
+  color: rgb(0, 0, 0);
   width: 100%;
   max-width: none;
   line-height: 0.9;
@@ -103,7 +98,7 @@ ul li a:hover {
 
 #wrapper1 {
   width: 100%;
-  background-color:  rgb(255, 252, 206);
+  background-color: rgb(255, 252, 206);
 }
 .top-left2 {
   color: #ff6828;
@@ -112,13 +107,62 @@ ul li a:hover {
   text-transform: uppercase;
   width: 200%;
 }
+
+#p1 {
+  font-size: 1em;
+  font-weight: 300;
+  color: rgb(255, 252, 206);
+  z-index: 20;
+  position: absolute;
+  top: 35%;
+  left: 50px;
+}
+
 .p2 {
   position: absolute;
   top: 25%;
-  font-size: 1.20em;
+  font-size: 1.2em;
   font-weight: 300;
   width: 40%;
   height: 50%;
+}
+
+.p3 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+  top: 20%;
+  right: -10%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 40%;
+  height: auto;
+  text-align: left;
+}
+
+.p4 {
+  position: absolute;
+  color: rgb(255, 252, 206);
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25em;
+  font-weight: 300;
+  width: 30%;
+  height: auto;
+  text-align: left;
+  z-index: 10;
+}
+
+.p5 {
+  top: 15%;
+  position: absolute;
+  font-size: 1.25em;
+  font-weight: 300;
+  left: 23%;
+  width: 70%;
+  height: auto;
+  text-align: left;
 }
 
 .full-width {
@@ -130,11 +174,17 @@ ul li a:hover {
   margin-right: -50vw;
 }
 
+#fire04 {
+  position: relative;
+  margin-top: 10%;
+  right: -43%;
+  width: 50%;
+}
+
 #fire05 {
   position: relative;
   margin-right: -20%;
   width: 100%;
-
 }
 
 #fire06 {
@@ -145,55 +195,6 @@ ul li a:hover {
   z-index: 12;
 }
 
-
-/* #wrapper2 {
-  background-color:  rgb(0, 0, 0);
-} */
-
-.p3 {
-  position: absolute;
-  color: rgb(255, 252, 206);
-  top: 8%;
-  right: 10%;
-  transform: translate(-50%, -50%);
-  font-size: 1.25em;
-  font-weight: 300;
-  width: 30%;
-  height: auto;
-  text-align: left;
-}
-
-.p4 {
-  position: absolute;
-  color: rgb(255, 252, 206);
-  top: 25%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  font-size: 1.25em;
-  font-weight: 300;
-  width: 30%;
-  height: auto;
-  text-align: left;
-  z-index: 10;
-}
-
-#fire04 {
-  position: relative;
-  margin-top: -20%;
-  right: -30%;
-  width: 60%;
-}
-
-.p5 {
-  top: 10%;
-  position: absolute;
-  font-size: 1.25em;
-  font-weight: 300;
-  left: 23%;
-  width: 70%;
-  height: auto;
-  text-align: left;
-}
 #fire07 {
   position: relative;
   margin-top: -25%;
@@ -201,9 +202,15 @@ ul li a:hover {
   width: 200%;
 }
 
-#wrapper3, #wrapper4 {
+#fire08 {
+  position: relative;
   width: 100%;
-  background-color: rgb(6, 6, 6);
+}
+
+#wrapper3,
+#wrapper4 {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
 }
 #wrapper3 {
   padding-top: 5%;
@@ -211,7 +218,6 @@ ul li a:hover {
 .p6 {
   position: absolute;
   color: rgb(255, 252, 206);
-
   left: 55%;
   font-size: 1.25em;
   font-weight: 300;
@@ -234,56 +240,477 @@ ul li a:hover {
   text-align: left;
 }
 
-
 #fire10 {
   position: relative;
   right: -220%;
   width: 180%;
 }
 
-#fire011 {
-  padding-top: 10%;
+#fire11 {
   position: relative;
-  left: 20%;
-  width: 100%;
-  background-color: rgb(6, 6, 6);
+  left: 45%;
+  width: 50%;
+  margin-top: -250%;
 }
+
 footer {
   position: absolute;
   width: 100%;
-  padding: 10px 0;
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 252, 206);
   text-align: center;
   font-size: 1em;
   font-weight: 300;
 }
 
+.spinner img {
+  position: relative;
+  margin-top: -50%;
+  width: 30%;
+  left: 165%;
+  z-index: 20;
 
-/* From Uiverse.io by Sendung */ 
-.spinner {
-  width: 20px;
-  height: auto;
-  transition: all 0.3s ease-in-out 0s; 
 }
 
-.spinner:hover
-{
-    cursor: pointer;
-    transform: rotate(360deg);
-    transition: all 0.3s ease-in-out 0s;
+.spinner img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 100%;
+  }
 
+  .column {
+    background-color: rgb(0, 0, 0);
+  }
 
-@media only screen and (max-width: 600px){
-    
-    header {
-        text-align: center;
-    }
+  ul li a {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.1em;
+    float: none;
+  }
+
+  .header {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .top-left {
+    font-size: 3em;
+    left: 10px;
+    width: 200%;
+  }
+
+  .top-left2 {
+    font-size: 3em;
+    width: 300%;
+  }
+
+  .spinner img {
+    width: 20%;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #wrapper1 {
+    width: 100%;
+    background-color: rgb(255, 252, 206);
+    margin-top: 0%;
+  }
+
+  #p1 {
+    font-size: 0.6em;
+    font-weight: 300;
+    color: rgb(255, 252, 206);
+    z-index: 20;
+    position: absolute;
+    top: 35%;
+    left: 10px;
+    width: 45%;
+  }
+
+  .p3,
+  .p4,
+  .p5,
+  .p6,
+  .p7 {
+    font-size: 0.7em;
+    width: 80%;
+    left: 35px;
+    top: 30px;
+    position: relative;
+    transform: none;
+    text-align: left;
+  }
+  .p2 {
+    font-size: 0.7em;
+    width: 80%;
+    left: 35px;
+    top: 30px;
+    padding-top: 15%;
+    position: relative;
+    transform: none;
+    text-align: left;
+  }
+
+  #fire04 {
+    position: relative;
+    margin-top: -20%;
+    right: -30%;
+    width: 60%;
+  }
+
+  #fire04 {
+    position: relative;
+    margin-top: -20%;
+    right: -30%;
+    width: 100%;
+  }
+
+  #fire05 {
+    position: relative;
+    left: 300px;
+    width: 50%;
+    top: -500px;
+  }
+
+  #fire06 {
+    position: relative;
+    left: 0%;
+    width: 50%;
+    z-index: 12;
+    padding-top: 5%;
+  }
+
+  #fire07 {
+    position: relative;
+    margin-top: -25%;
+    left: 10%;
+    width: 90%;
+  }
+
+  #fire09 {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    top: 7px;
+  }
+
+  #fire10 {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #fire011 {
+    position: relative;
+    margin-top: -250%;
+    scale: 30%;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 5px 0;
+    position: static;
+  }
 }
 
-@keyframes example {
-            from {background-color: black}
-            to {background-color: yellow;}
-            }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 100%;
+  }
+
+  .column {
+    background-color: rgb(0, 0, 0);
+  }
+
+  ul li a {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.1em;
+    float: none;
+  }
+
+  .header {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .top-left {
+    font-size: 3em;
+    left: 10px;
+    width: 200%;
+  }
+
+  .top-left2 {
+    font-size: 3em;
+    width: 300%;
+  }
+
+  .spinner img {
+    width: 20%;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #wrapper1 {
+    width: 100%;
+    background-color: rgb(255, 252, 206);
+    margin-top: 0%;
+  }
+
+  #p1 {
+    font-size: 0.6em;
+    font-weight: 300;
+    color: rgb(255, 252, 206);
+    z-index: 20;
+    position: absolute;
+    top: 35%;
+    left: 10px;
+    width: 45%;
+  }
+
+  .p3,
+  .p4,
+  .p5,
+  .p6,
+  .p7 {
+    font-size: 0.7em;
+    width: 80%;
+    left: 35px;
+    top: 30px;
+    position: relative;
+    transform: none;
+    text-align: left;
+  }
+  .p2 {
+    font-size: 0.7em;
+    width: 80%;
+    left: 35px;
+    top: 30px;
+    padding-top: 15%;
+    position: relative;
+    transform: none;
+    text-align: left;
+  }
+
+  #fire04 {
+    position: relative;
+    margin-top: -20%;
+    right: -30%;
+    width: 60%;
+  }
+
+  #fire04 {
+    position: relative;
+    margin-top: -20%;
+    right: -30%;
+    width: 100%;
+  }
+
+  #fire05 {
+    position: relative;
+    left: 300px;
+    width: 50%;
+    top: -500px;
+  }
+
+  #fire06 {
+    position: relative;
+    left: 0%;
+    width: 50%;
+    z-index: 12;
+    padding-top: 5%;
+  }
+
+  #fire07 {
+    position: relative;
+    margin-top: -25%;
+    left: 10%;
+    width: 90%;
+  }
+
+  #fire09 {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    top: 7px;
+  }
+
+  #fire10 {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #fire011 {
+    position: relative;
+    margin-top: -250%;
+    scale: 30%;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 5px 0;
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 100%;
+  }
+
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  .column {
+    background-color: rgb(0, 0, 0);
+  }
+
+  ul li a {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .header {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .top-left2 {
+    font-size: 3em;
+    margin-left: 30px;
+    margin-top: 0%;
+    width: 50%;
+  }
+
+  .spinner img {
+    width: 20%;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #wrapper1 {
+    width: 100%;
+    background-color: rgb(255, 252, 206);
+  }
+
+  #p1 {
+    font-size: 0.6em;
+    font-weight: 300;
+    color: rgb(255, 252, 206);
+    z-index: 20;
+    position: absolute;
+    top: 35%;
+    left: 10px;
+    width: 45%;
+  }
+
+  #p2 {
+    position: absolute;
+    top: 25%;
+    font-size: 0.75em;
+    font-weight: 300;
+    width: 40%;
+    height: 50%;
+    margin-left: 40px;
+    left: 10px;
+  }
+
+  .p2,
+  .p3,
+  .p4,
+  .p5,
+  .p6,
+  .p7 {
+    font-size: 0.75em;
+    width: 80%;
+    left: 35px;
+    top: 30px;
+    position: relative;
+    transform: none;
+    text-align: left;
+    padding-bottom: 70px;
+  }
+  #fire04 {
+    position: relative;
+    margin-top: -20%;
+    right: -30%;
+    width: 60%;
+  }
+
+  #fire05 {
+    position: relative;
+    margin-right: 20%;
+    width: 40%;
+    margin-top: -76px;
+  }
+
+  #fire06 {
+    position: relative;
+    left: 0%;
+    width: 50%;
+    z-index: 12;
+    padding-top: 5%;
+  }
+
+  #fire09 {
+    position: relative;
+    right: -220%;
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  #fire10 {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #fire011 {
+    padding-top: 10%;
+    width: 200%;
+    left: 0;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 5px 0;
+    position: static;
+  }
+}
